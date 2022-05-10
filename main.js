@@ -50,31 +50,27 @@ document.querySelectorAll(".form_input").forEach(inputElement => {
     })
 });
 });
-var swiper = new Swiper(".books_slider",{
-    spaceBetween: 10,
-    loop:true,
-centeredSlides: true,
-autoplay:{
-    delay:9500,
-    disableOnInteraction:false,
-},
-navigation:{
-    nextE1:".swiper-button-next",
-    prevE1:"swiper-button-prev",
-},
-breakpoints:{
-    0:{
-        slidePerView:1,
-    },
-    450:{
-    slidePerView:2,
-    },
-    768:{
-    slidePerView:3,
-    },
-    1024:{
-    slidePerView:4,
-    },
-},
+$(document).ready(function() {
+new Swiper('.swiper-container', {
+    loop: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    slidesPerView: 3,
+    paginationClickable: true,
+    spaceBetween: 20,
+    breakpoints: {
+        1920: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+        1028: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        }
+    }
 });
-
+});
