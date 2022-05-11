@@ -1,0 +1,145 @@
+body{
+
+}
+.head{
+    position: absolute;
+    height: 15%;
+background: #252c6a;
+width: 100%;
+left: 150px;
+
+}
+
+.kindle{
+    position: absolute;
+    left: 40rem;
+    bottom: 1.5rem;
+    width: 500px;
+
+}
+.search-form{
+   position: absolute;
+   left: 60rem;
+   top: 1rem;
+}
+.release{
+ 
+    position: absolute;
+    left: 70rem;
+    top: 0.2rem;
+ }
+.feature{
+    position: absolute;
+    left: 78rem;
+    top: 0.2rem; 
+}
+.profile{
+    position: absolute;
+    top: 11rem;
+
+}
+#proIMAGE{
+    width: 150px;
+    height: auto;
+    border-radius: 40px;
+
+}
+#product{
+    width: 120px;
+    height: auto;
+}
+.newRelease{
+    position: relative;
+    background-color: #252c6a;
+    display: flex;
+    bottom: -60rem;
+    left: 10rem;
+    margin-left: 30px;
+    width: 60%;
+    height: 30rem;
+    overflow-y: hidden;
+    
+}
+#td1 p{
+    background-color: grey;
+    border-radius: 45px;
+    text-align: center;
+}
+.famousAuthor{
+    position: absolute;
+    background-color: purple;
+    display: flex;
+    bottom: -30rem;
+   right: 0.5rem;
+   width: 22.9%;
+    height: 30.5rem;
+}
+#famAuthor img{
+    border-radius: 80px;
+    width: 80px;
+    height: auto;
+
+}
+
+#famAuthor p{
+    margin-left: 10px;
+}
+
+.container{
+    background-color:#ffffff;
+    width: 100%;
+    position: absolute;
+    left:10rem;
+    top: 20rem;
+    display: flex;
+    overflow-y: hidden;
+    margin-left: 30px;
+}
+.cont .book{
+background-color: aquamarine;
+border-radius: 50px;
+margin-left: 20px;
+width:50%;
+height: 150px;
+margin-top: 200px;
+
+}
+.book img{
+
+    margin-top: -150px;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+.coverImage{
+    width: 1000px;
+    height: 100px;
+    left: -65px;
+    
+}
+.coverImage h1 {
+    font-size: 15px;
+    margin-left: 210px;
+    margin-top: -80px;
+    
+}
+.coverImage p {
+    font-size: 15px;
+    margin-left: 210px;
+    margin-top: -10px;
+    
+}
+
+.cont{
+    
+    display: flex;
+    overflow-y: hidden;
+    margin-left: 10px;
+    width: 88.9%;
+    height: 30rem;
+    background-color: rgb(176, 127, 255);
+}
+
+.cont .book{
+
+    width: 450px;
+}

@@ -1,304 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kindle </title>
-
-        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-
-        <!-- header section starts  -->
-
-<header class="header">
-
-    <div class="header-1">
-
-        <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
-
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
-
-    </div>
-</header>
-<!-- header section ends -->
-
-<!-- bottom navbar  -->
-
-<nav class="bottom-navbar">
-    <a href="#home" class="fas fa-home"></a>
-    <a href="#featured" class="fas fa-list"></a>
-    <a href="#arrivals" class="fas fa-tags"></a>
-    <a href="#reviews" class="fas fa-comments"></a>
-    <a href="#blogs" class="fas fa-blog"></a>
-</nav>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="row">
-
-        <div class="content">
-            <h3>upto 75% off</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt nostrum accusamus. Nam alias sit necessitatibus, aliquid ex minima at!</p>
-            <a href="#" class="btn">shop now</a>
-        </div>
-
-        <div class="swiper books-slider">
-            <div class="swiper-wrapper">
-                <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+    <meta name="viewport" content="width=device-width,initial-scale=10.0">
+    <meta charset="utf-8">
+    <title>kindle</title>
+<link rel="shortcut icon" href="/assests/favion.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="kindle">
+                <h1>Kindle</h1>
             </div>
-            <img src="image/stand.png" class="stand" alt="">
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+                
+                    <div class="release">
+                        <p>New release</p>
+                    </div>
+                        <div class="feature">
+                            <p>Featured</p>
+                        </div>
         </div>
-
-    </div>
-
-</section>
-
-<!-- home section ense  -->
-
-<!-- icons section starts  -->
-
-<section class="icons-container">
+        <div class="profile">
+            <img id="proIMAGE" src="/image/stand/riha.jpg" alt="">
+            <p>Welcome Back</p>
+        
 
     <div class="icons">
-        <i class="fas fa-shipping-fast"></i>
-        <div class="content">
-            <h3>free shipping</h3>
-            <p>order over $100</p>
-        </div>
+        <i class="fab fa-kickstarter-k">My kindle board</i>   
     </div>
+        <div class="table">
+            <table cellpadding=" 20" cellspacing="20">
+                <tr>
+                    <td>
+                        <i class="fa fa-cube">Collection</i>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa far fa-bookmark">Saved</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa fa-user">Profile</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa fa-user">Logout</i>
+                    </td>
+                </tr>
 
-    <div class="icons">
-        <i class="fas fa-lock"></i>
-        <div class="content">
-            <h3>secure payment</h3>
-            <p>100 secure payment</p>
+            </table>
         </div>
-    </div>
+    <h4>product of</h4>
+    <img id="product" src="/image/stand/amazon.png"  alt="">
 
-    <div class="icons">
-        <i class="fas fa-redo-alt"></i>
-        <div class="content">
-            <h3>easy returns</h3>
-            <p>10 days returns</p>
-        </div>
-    </div>
-
-    <div class="icons">
-        <i class="fas fa-headset"></i>
-        <div class="content">
-            <h3>24/7 support</h3>
-            <p>call us anytime</p>
-        </div>
-    </div>
-
-</section>
-
-<!-- featured section starts  -->
-
-<section class="featured" id="featured">
-
-    <h1 class="heading"> <span>featured books</span> </h1>
-
-    <div class="swiper featured-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-1.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-3.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-4.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-5.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-6.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-7.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-8.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-9.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-10.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
 
         </div>
+        </div>
+       
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
+    </header>
+    <main>
+        <div class="container">
+            <div class="cont">
+            <div class="book">
+                <img src="/image/stand/image2.jpg" alt="">
+                
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                    <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+            </div>
+            <div class="book">
+                <img src="/image/stand/image3.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image4.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                    <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image5.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                    <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+              
+            </div>
+            <div class="book">
+                <img src="/image/stand/image6.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image7.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image8.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image9.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+            <div class="book">
+                <img src="/image/stand/image10.jpg" alt="">
+                <div class="coverImage">
+                    <h1>Harry Potter And The Sorcerers Stone</h1>
+                <p>193 Page . Chapter 13 . Last Read</p>
+                </div>
+                
+            </div>
+        </div>
     </div>
+        <div class="newRelease">
+            <table cellpadding=" 20" cellspacing="20">
+                <tr>
+                    <td id="td1">
+                        <img src="/image/stand/pic1.jpg" alt="">
+                        <h2>The Glass Hotel</h2>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic2.jpg" alt="">
+                        <h2>The Glass Hotel</h2>
+                        <H5>Emily St.John</H5>
+                        <p>Fiction</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic3.jpg" alt="">
+                        <h2>The Glass Hotel</h2>
+                        <h5>Emily St.John</H5>
+                        <p>Thriller</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic4.jpg" alt="">
+                        <h2>The Glass Hotel</h2>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic5.jpg" alt="">
+                        <h2>The Glass Hotel</h2>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="famousAuthor">
+            <table id="famAuthor" cellpadding=" 2" cellspacing="2">
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof1.jpg"  alt="">
+                       
+                    </td>
+                    <td>
+                        <p>J.K. Rowling</p>
+                        <p>10 Books</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof2.jpg" alt="">
+                        <div class="data">
+                        
+                        </div>
+                        
+                    </td>
+                    <td>
+                        <p>Stephen king</p>
+                        <p>61 Novels</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof3.jpg"alt="">
+                        <div class="data">
+                        
+                           
+                        </div>
+                        
+                    </td>
+                    <td><p>daniel Steel</p>
+                        <p>179 Books</p></td>
+                    
+                </tr>
+            </table>
+        </div>
+    </main>
+<footer>
 
-</section>
-
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="main.js"></script>
-
-</body>
-</html>
-   
-
+</footer>        
+    </body>
