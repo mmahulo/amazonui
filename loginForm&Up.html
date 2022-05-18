@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration form </title>
+  <link rel="stylesheet" href="login&up.css">
+  <link rel="stylesheet" href="loginForm.html">
+</head>
+
+<body>
+<div class="container">
+    <h1>registration form</h1>
+    <form onsubmit="formValidation(event)" name="registration" class="form" >
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td><label for="number">Phone Number:</label></td>
+          <td><input type="number" name="number" id="number"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+          <td><label for="Image">Image:</label></td>
+          <td><input type="file" name="Image" id="Image"></td>
+        </tr>
+        <tr>
+          <!-- <a href="loginForm.html"><td colspan="2"><input type="submit" class="submit" value="Register"  onclick="formValidation(event)"/></td></a> -->
+          <input type="submit" class="submit" value="Register"  onclick="formValidation(event)"/>
+        </tr> 
+      </table>
+    </form>
+  </div>
+
+  <script src="main.js" ></script>
+</body>
+
+<!-- <script src="login.js"></script> -->
+
+</html>

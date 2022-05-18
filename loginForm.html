@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=10.0">
+    <meta charset="utf-8">
+    <title>sign in </title>
+<link rel="shortcut icon" href="/assests/favion.ico">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="home.html" >
+</head>
+<body>
+    <!-- Main div code -->
+	<div id="main">
+        <form onsubmit="logIn(event)" name="registration" class="form">
+        <div class="h-tag">
+        <h2>Login</h2>
+        </div>
+        <!-- Login box -->
+      
+            <div class="login">
+                <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                <td>Enter User Name :</td>
+                <td><input type="text" placeholder="Enter user name" id="fname" class="tb" /></td>
+                </tr>
+                <tr>
+                <td>Enter Password :</td>
+                <td><input type="password" placeholder="Enter Password " id="pwd1" class="tb" /></td>
+                </tr>
+                <tr>
+                <td>
+                    <!-- <div id="remember">
+                        <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                               style="display: inline-block;">
+                        <label>Remember me</label>
+                    </div> -->
+                <!-- <input type="submit" value="Register" onclick="formValidation()" class="btn" />  -->
+                <input type="submit" value="login"  onsubmit="logIn(event)" class="btn"/></td>
+                </tr>
+                </table>
+            </div>
+    </div>
+</form>
+    <script src="login.js" ></script>
+</body>
+
+
+</html>

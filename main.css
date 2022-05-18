@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition:all .2s linear;
-    transition:width none;
-}
-
 body{
     --color-primary:#009579;
     --color-primary-dark:#007f67;
@@ -20,6 +9,7 @@ body{
 
     margin: 0;
     height: 100vh;
+    width: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,17 +17,6 @@ body{
     background:var(--color-primary);
     background-size: cover;
 }
-.container{
-
-    width: 400px;
-    max-width: 400px;
-    margin: 1rem;
-    padding:2rem ;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radius);
-    background: #ffffff;
-
-}
 .container,
 .form_input,
 .form_button{
@@ -128,19 +107,7 @@ body{
     color:var(--light-color);
     cursor: pointer;
 }
-.container{
 
-    width: 400px;
-    max-width: 400px;
-    margin: 1rem;
-    padding:2rem ;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radius);
-    background: #ffffff;
-
-}
-
-.container,
 .form_input,
 .form_button{
     font: 500 1rem 'Quicksand',sans-serif;
@@ -230,94 +197,7 @@ body{
     color:var(--light-color);
     cursor: pointer;
 }
-.home,
-.row,
-.content h3{
-    color:black ;
-    font-size: 4.5rem;
-}
 
-.header,
-.header_1{padding: 2rem;
-}
-.section{
-    padding: 3rem 2rem;
-}
-.header,
-.header_1,
-.logo{
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color:black;
-}
-.header,
-.header_1,
-.logo i{
-    color: green;
-}
-.header,
-.header_1,
-.search_form{
-    width: 50rem;
-    height: 5rem;
-    border: var(--border);
-    overflow: hidden;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    border-radius: 5rem;
-}
-.header,
-.header_1,
-.search_form input{
-    font-size: 1.6rem;
-    padding: 0 1.2rem;
-    height: 100%;
-    width: 100%;
-    text-transform: none;
-    color: black;
-
-}
-.header,
-.header_1,
-.search_form label{
-    font-size: 2.5rem;
-    padding: 1.5rem;
-    color: black;
-}
-<<<<<<< HEAD
-=======
-.swiper {
-  width: 10%;
-  height: 10%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .bottom-navbar a:hover{
     background:var(--dark-color);
 }
@@ -333,8 +213,7 @@ body{
 
 }
 
-.container,
-.form_input,
+.container.form_input,
 .form_button{
     font: 500 1rem 'Quicksand',sans-serif;
 }
@@ -423,101 +302,3 @@ body{
     color:var(--light-color);
     cursor: pointer;
 }
-.home{
-    background: blue;
-    background-size: cover;
-    background-position: center;
-}
-.home,
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-.home,
-.row,
-.content{
-    flex: 1 1 42rem;
-
-}
-.home,
-.row,
-.books_slider{
-    flex: 1 1 42rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-.home,
-.row,
-.books_slider a img{
-height: 25rem;
-}
-.home,
-.row,
-.books_slider a:hover img{
-    transform: scale(.9);
-}
-.home,
-.row,
-.books_slider,
-.stand{
-    width: 100%;
-    margin-top: -2rem;
-}
-.home,
-.row,
-.content h3{
-    color:black ;
-    font-size: 4.5rem;
-}
-
-.header,
-.header_1{padding: 2rem;
-}
-.section{
-    padding: 3rem 2rem;
-}
-.header,
-.header_1,
-.logo{
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color:black;
-}
-.header,
-.header_1,
-.logo i{
-    color: green;
-}
-.header,
-.header_1,
-.search_form{
-    width: 50rem;
-    height: 5rem;
-    border: var(--border);
-    overflow: hidden;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    border-radius: 5rem;
-}
-.header,
-.header_1,
-.search_form input{
-    font-size: 1.6rem;
-    padding: 0 1.2rem;
-    height: 100%;
-    width: 100%;
-    text-transform: none;
-    color: black;
-
-}
-.header,
-.header_1,
-.search_form label{
-    font-size: 2.5rem;
-    padding: 1.5rem;
-    color: black;
-}
->>>>>>> e96aaacdb37b1a17eaafd16a40e36a8e12f3030b
