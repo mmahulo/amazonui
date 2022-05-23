@@ -158,6 +158,13 @@ header{
     height:"285px";
     border-radius: 80px;
 }
+.newRelease h2{
+    position: relative;
+    height: 10%;
+    width: 30%;
+    bottom: 2.3rem;
+    right: -2rem;
+}
 #td1{
     background-color: transparent;
    position: relative;
@@ -165,14 +172,15 @@ header{
    width: 85%;
    height: 30%;
 }
-/* #td1 h2{
+ .container h2{
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
     height: 10%;
     width: 30%;
-    bottom: 1.5rem;
+    top: 1.5rem;
+    left: 2.5rem;
 }
-#td1 h5{
+/*#td1 h5{
     position: absolute;
     text-align: center;
     height: 10%;

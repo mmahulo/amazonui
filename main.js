@@ -12,3 +12,14 @@ function formValidation(event) {
   localStorage.setItem('password', Password);
   window.location = "loginForm.html";
 }
+
+const img = document.getElementById('file');
+img.addEventListener("change", function(){
+    alert("File added");
+    var readimgfile= new FileReader();
+        readimgfile.onload= function(){
+            localStorage.setItem('file', readimgfile.result);
+            alert(readimgfile.result);
+        }
+    readimgfile.readAsDataURL(this.files[0]);
+});
