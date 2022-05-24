@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+
+<html>
+<head> 
+ <SCRIPT language="JavaScript"> 
+
+var w = 480, h = 340;
+
+
+function openWindow(){
+if (document.getElementById) {
+   w = screen.availWidth;
+   h = screen.availHeight;
+}  
+
+var popW = 800, popH = 700;
+
+var leftPos = (w-popW)/2;
+var topPos = (h-popH)/2;
+
+
+
+msgWindow = window.open('','popup','width=' + popW + ',height=' + popH + 
+                         ',top=' + topPos + ',left=' + leftPos + ',       scrollbars=yes');
+
+msgWindow.document.write 
+    ('<HTML><HEAD><TITLE>Centered Window</TITLE></HEAD><BODY><FORM    NAME="form1">' +
+    '<img src="https://static5.cargurus.com/images/site/2009/10/24/14/42/2004_suzuki_vitara_4_dr_lx_4wd_suv-pic-8731393806365188898-640x480.jpeg">'+
+    ' <H1>Notice the centered popup window.</H1>This is the ordinary HTML' + 
+    ' document that can be created on the fly.  But the window is centered   in ' +
+    ' the browser.  Click the button below to close the window.<br />' +
+    '<INPUT TYPE="button" VALUE="OK"onClick="window.close();"></FORM></BODY>   </HTML>');
+}
+
+</script>
+<form>
+<input type="button" onClick="openWindow()" value="Click Me">
+</form>
+
+
+</body>
+</html>

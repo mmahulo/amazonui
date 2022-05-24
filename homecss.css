@@ -2,7 +2,7 @@ body{
     height: 95vh;
     width: 100vh;
     box-sizing: border-box;
-    
+    overflow: hidden;
 }
 .head{
     position: absolute;

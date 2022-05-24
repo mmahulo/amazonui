@@ -107,7 +107,13 @@
                                 <p>101 pages.chapter12.Last read</p>
                                 </font>
 
-                                <div class="bookimg1"><img src="./image/stand/image1.jpg"></div>
+                                <div class="bookimg1"><img id="image" src="./image/stand/image1.jpg"></div>
+
+                                <button type="button"
+                                
+                                onclick="show()" id="btnID">
+                                Show image1
+                            </button>
                             </div>
                             
                         </div>
@@ -315,6 +321,18 @@
         </div>
     </main>
 <script src="scroll.js"></script>
+<script>
+    function show() {
+
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('image')
+                .style.display = "block";
+
+        document.getElementById('btnID')
+                .style.display = "none";
+    }
+</script>
             
     </body>
   </html>
